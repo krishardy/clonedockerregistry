@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 
 def main():
-    parser = argparse.ArgumentParser("dockerregmigrate", description="Tool to migrate docker repositories from one registry to another.")
+    parser = argparse.ArgumentParser("clonedockerregistry", description="Tool to migrate docker repositories from one registry to another.")
     parser.add_argument("-f", "--fromurl", type=str, required=True, help="The base url of the Docker Registry to migrate from (https://mydomain/)")
     parser.add_argument("-fv", "--fromversion", type=int, default=2, help="The Docker Registry API version to migrate from. Default=2")
     parser.add_argument("-fu", "--fromuser", type=str, required=True, help="The user to migrate from.")
