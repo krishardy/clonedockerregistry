@@ -4,7 +4,7 @@ The project takes the URLs of two registeries (a source registry and a destnatio
 
 ## Setup
 
-`git clone https://github.com/krishardy/clonedockerregistry`
+`git clone https://github.com/krishardy/clonedockerregistry.git`
 
 `pip3 install -r requirements.txt`
 
